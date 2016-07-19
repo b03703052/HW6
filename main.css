@@ -38,7 +38,14 @@
     line-height: 400px;
     font-size: 28px
 }
-
+body{
+	height: 5000px
+		
+	
+	
+	
+	
+}
 .footer {
     float: left;
     width: 100%;
@@ -52,13 +59,14 @@
 
 .nav>li {
     display: inline-block;
-    border: 1px solid #d6c4c4
-    border-right: 0px;
+    
     margin-left: -20px;
     padding: .5em 1em;
     width:25%;
     box-sizing: border-box;
-    position:relative
+    position:relative;
+	
+	
        
 }
  .nav>li:hover .submenu{
@@ -99,4 +107,20 @@
     background: white
     
 }
-.
+.circle{
+	color: white;
+	background: red;
+	width: 40px;
+	height: 40px;
+	border-radius: 100px;
+	text-align: center;
+	line-height: 1.5;
+	font-size: 27px;
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+		
+	
+		
+	
+}
